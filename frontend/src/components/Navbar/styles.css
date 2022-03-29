@@ -13,7 +13,7 @@ header {
 }
 
 .agendamento-nav-content h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin: 0;
     font-weight: 700;
 }
@@ -25,5 +25,5 @@ header {
 
 .agendamento-contact-link {
     margin: 0 0 0 10px;
-    font-size: 12px;
+    font-size: 16px;
 }
