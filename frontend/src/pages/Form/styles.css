@@ -1,7 +1,6 @@
 .agendamento-form-container {
     max-width: 680px;
     margin: 40px auto;
-    
 }
 
 .agendamento-form {
@@ -9,8 +8,7 @@
 }
 
 .agendamento-form-group {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
 .agendamento-form-group label {
@@ -21,7 +19,6 @@
 .agendamento-form-btn-container {
     display: flex;
     justify-content: center;
-
 }
 
 .agendamento-movie-card-image {
