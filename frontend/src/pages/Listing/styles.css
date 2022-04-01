@@ -1,5 +1,5 @@
 .page-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
   padding-top: 50px;
@@ -13,48 +13,67 @@
   width: 100%;
   border-bottom: 10px solid var(--color-primary);
   border-radius: 0 0 10px 10px;
+  text-align: center;
 }
 
 .records-table thead {
   background-color: var(--color-primary);
-  text-align: left;
-  color: #0e1b28;
+  text-align: center;
+  color: #fff;
   border-radius: 10px;
 }
 
 .records-table thead tr {
   height: 50px;
+  font-size: 20px;
 }
 
 .records-table thead th:first-child {
-  padding-left: 50px;
+  padding-left: 15px;
   border-top-left-radius: 10px;
+  width: 100px;
+}
+
+.records-table thead th:first-child +th {
+  width: 330px;
+}
+
+.records-table thead th:first-child +th +th {
+  width: 330px;
+}
+
+.records-table thead th:first-child +th +th +th {
+  width: 150px;
+}
+
+.records-table thead th:first-child +th +th +th +th {
+  width: 330px;
 }
 
 .records-table thead th:last-child {
+  padding-right: 15px;
   border-top-right-radius: 10px;
 }
 
 .records-table tbody td:first-child {
-  padding-left: 50px;
+  padding-left: 15px;
 }
 
 .records-table tbody tr {
   height: 45px;
-  color: #fff;
   font-size: 18px;
 }
 
 .records-table tbody tr:nth-child(odd) {
-  background-color: var(--color-darkslategray);
+  background-color: rgb(201, 197, 207);
 }
 
 .records-table tbody tr:nth-child(even) {
-  background-color: var(--color-dimgray);
+  background-color: rgb(221, 218, 224);
 }
 
 .filters-container {
-  background-color: var(--color-darkslategray);
+  background-color:#2F4F4F;
   display: flex;
   justify-content: space-between;
   padding: 13px 15px;
@@ -102,4 +121,15 @@
 
 .filters-container .action-filters:hover {
   background-color: #04c7ef;
+}
+
+.cadastro-btn {
+  background-color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

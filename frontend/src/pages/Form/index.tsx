@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function Form() {
@@ -159,9 +160,11 @@ function Form() {
             </button>
           </div>
         </form>
+        <Link to="/">
         <button className="btn btn-primary agendamento-btn mt-3">
           Cancelar
         </button>
+        </Link>
 
       </div>
     </div>
